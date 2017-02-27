@@ -1,0 +1,30 @@
+html,
+body {
+  background-color: $base-color;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navbar {
+  background-color: $base-color;
+  margin: 0;
+}
+
+#landing {
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  h1 {
+    color: $title-color;
+    font-family: 'Scope One';
+    font-size: 4em;
+    margin-top: 1em;
+  }
+  img {
+    border-radius: 50%;
+    height: 15em;
+    width: 15em;
+  }
+}

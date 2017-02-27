@@ -1,0 +1,35 @@
+/* line 1, ../sass/pages/_home.scss */
+html,
+body {
+  background-color: #1c2541;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* line 10, ../sass/pages/_home.scss */
+.navbar {
+  background-color: #1c2541;
+  margin: 0;
+}
+
+/* line 15, ../sass/pages/_home.scss */
+#landing {
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+/* line 19, ../sass/pages/_home.scss */
+#landing h1 {
+  color: #84a9c0;
+  font-family: 'Scope One';
+  font-size: 4em;
+  margin-top: 1em;
+}
+/* line 25, ../sass/pages/_home.scss */
+#landing img {
+  border-radius: 50%;
+  height: 15em;
+  width: 15em;
+}
