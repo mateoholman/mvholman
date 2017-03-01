@@ -1,7 +1,7 @@
 /* line 1, ../sass/pages/_home.scss */
 html,
 body {
-  background-color: #1c2541;
+  background-color: #9AA0A8;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ body {
 
 /* line 10, ../sass/pages/_home.scss */
 .navbar {
-  background-color: #1c2541;
+  background-color: #9AA0A8;
   margin: 0;
 }
 
@@ -21,15 +21,37 @@ body {
   width: 100%;
 }
 /* line 19, ../sass/pages/_home.scss */
-#landing h1 {
-  color: #84a9c0;
-  font-family: 'Scope One';
-  font-size: 4em;
-  margin-top: 1em;
-}
-/* line 25, ../sass/pages/_home.scss */
 #landing img {
   border-radius: 50%;
   height: 15em;
+  margin-top: 5em;
   width: 15em;
+}
+/* line 25, ../sass/pages/_home.scss */
+#landing h1 {
+  color: #393E41;
+  font-family: 'Scope One';
+  font-size: 4em;
+}
+/* line 30, ../sass/pages/_home.scss */
+#landing p {
+  color: #393E41;
+  font-family: 'Homemade Apple';
+}
+
+/* line 1, ../sass/pages/_skills.scss */
+#skills {
+  background-color: #393E41;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+/* line 6, ../sass/pages/_skills.scss */
+#skills h2 {
+  color: #9AA0A8;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 4em;
+  letter-spacing: .3em;
+  padding-top: 1em;
+  text-transform: uppercase;
 }

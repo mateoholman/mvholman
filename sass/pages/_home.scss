@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: $base-color;
+  background-color: $background-color;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -8,7 +8,7 @@ body {
 }
 
 .navbar {
-  background-color: $base-color;
+  background-color: $background-color;
   margin: 0;
 }
 
@@ -16,15 +16,19 @@ body {
   height: 100%;
   text-align: center;
   width: 100%;
+  img {
+    border-radius: 50%;
+    height: 15em;
+    margin-top: 5em;
+    width: 15em;
+  }
   h1 {
     color: $title-color;
     font-family: 'Scope One';
     font-size: 4em;
-    margin-top: 1em;
   }
-  img {
-    border-radius: 50%;
-    height: 15em;
-    width: 15em;
+  p {
+    color: $title-color;
+    font-family: 'Homemade Apple';
   }
 }
