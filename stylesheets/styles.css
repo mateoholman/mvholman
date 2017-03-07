@@ -46,7 +46,7 @@ body {
   text-align: center;
   width: 100%;
 }
-/* line 6, ../sass/pages/_skills.scss */
+/* line 7, ../sass/pages/_skills.scss */
 #skills h2 {
   color: #9AA0A8;
   font-family: 'Fjalla One', sans-serif;
@@ -54,4 +54,16 @@ body {
   letter-spacing: .3em;
   padding-top: 1em;
   text-transform: uppercase;
+}
+/* line 16, ../sass/pages/_skills.scss */
+#skills .card {
+  background-color: #9AA0A8;
+  height: 10em;
+  margin: .25em 0;
+}
+/* line 21, ../sass/pages/_skills.scss */
+#skills .card img {
+  height: 8em;
+  width: 8em;
+  margin: .5em;
 }
