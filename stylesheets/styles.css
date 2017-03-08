@@ -66,3 +66,51 @@ body {
   margin: .5em;
   width: 8em;
 }
+
+/* line 1, ../sass/pages/_projects.scss */
+#projects {
+  background-color: #9AA0A8;
+  text-align: center;
+  width: 100%;
+}
+/* line 6, ../sass/pages/_projects.scss */
+#projects h2 {
+  color: #393E41;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 4em;
+  letter-spacing: .3em;
+  padding-top: 1em;
+  text-transform: uppercase;
+}
+
+/* line 1, ../sass/pages/_bio.scss */
+#bio {
+  background-color: #393E41;
+  text-align: center;
+  width: 100%;
+}
+/* line 6, ../sass/pages/_bio.scss */
+#bio h2 {
+  color: #9AA0A8;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 4em;
+  letter-spacing: .3em;
+  padding-top: 1em;
+  text-transform: uppercase;
+}
+
+/* line 1, ../sass/pages/_qanda.scss */
+#qanda {
+  background-color: #9AA0A8;
+  text-align: center;
+  width: 100%;
+}
+/* line 6, ../sass/pages/_qanda.scss */
+#qanda h2 {
+  color: #393E41;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 4em;
+  letter-spacing: .3em;
+  padding-top: 1em;
+  text-transform: uppercase;
+}

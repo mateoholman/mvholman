@@ -1,0 +1,14 @@
+#projects {
+  background-color: $background-color;
+  text-align: center;
+  width: 100%;
+
+  h2 {
+    color: $title-color;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 4em;
+    letter-spacing: .3em;
+    padding-top: 1em;
+    text-transform: uppercase;
+  }
+}
