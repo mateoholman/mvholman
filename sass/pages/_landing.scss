@@ -1,20 +1,38 @@
 #landing {
   height: 100%;
+  padding-top: 15%;
   text-align: center;
   width: 100%;
+
   img {
     border-radius: 50%;
     height: 15em;
-    margin-top: 5em;
     width: 15em;
   }
+
   h1 {
     color: $title-color;
     font-family: 'Scope One';
     font-size: 4em;
+    letter-spacing: .1em;
   }
+
   p {
     color: $title-color;
     font-family: 'Homemade Apple';
+  }
+
+  a {
+    color: $title-color;
+  }
+
+  .icon-box {
+    padding-bottom: 5%;
+    padding-top: 5%;
+
+    i {
+      padding-left: 3%;
+      padding-right: 3%;
+    }
   }
 }

@@ -17,26 +17,41 @@ body {
 /* line 1, ../sass/pages/_landing.scss */
 #landing {
   height: 100%;
+  padding-top: 15%;
   text-align: center;
   width: 100%;
 }
-/* line 5, ../sass/pages/_landing.scss */
+/* line 7, ../sass/pages/_landing.scss */
 #landing img {
   border-radius: 50%;
   height: 15em;
-  margin-top: 5em;
   width: 15em;
 }
-/* line 11, ../sass/pages/_landing.scss */
+/* line 13, ../sass/pages/_landing.scss */
 #landing h1 {
   color: #393E41;
   font-family: 'Scope One';
   font-size: 4em;
+  letter-spacing: .1em;
 }
-/* line 16, ../sass/pages/_landing.scss */
+/* line 20, ../sass/pages/_landing.scss */
 #landing p {
   color: #393E41;
   font-family: 'Homemade Apple';
+}
+/* line 25, ../sass/pages/_landing.scss */
+#landing a {
+  color: #393E41;
+}
+/* line 29, ../sass/pages/_landing.scss */
+#landing .icon-box {
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+/* line 33, ../sass/pages/_landing.scss */
+#landing .icon-box i {
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 /* line 1, ../sass/pages/_skills.scss */
