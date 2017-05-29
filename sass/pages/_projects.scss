@@ -1,5 +1,6 @@
 #projects {
   background-color: $background-color;
+  padding-bottom: 2em;
   text-align: center;
   width: 100%;
 
@@ -10,5 +11,19 @@
     letter-spacing: .3em;
     padding-top: 1em;
     text-transform: uppercase;
+  }
+
+  .card {
+    background-color: $title-color;
+    height: 10.5em;
+    margin: .5em 0;
+
+    h3 {
+      color: $alt-title-color;
+    }
+
+    p {
+      color: $alt-title-color;
+    }
   }
 }

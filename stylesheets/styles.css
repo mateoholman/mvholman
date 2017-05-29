@@ -90,10 +90,11 @@ body {
 /* line 1, ../sass/pages/_projects.scss */
 #projects {
   background-color: #9AA0A8;
+  padding-bottom: 2em;
   text-align: center;
   width: 100%;
 }
-/* line 6, ../sass/pages/_projects.scss */
+/* line 7, ../sass/pages/_projects.scss */
 #projects h2 {
   color: #393E41;
   font-family: 'Fjalla One', sans-serif;
@@ -101,6 +102,20 @@ body {
   letter-spacing: .3em;
   padding-top: 1em;
   text-transform: uppercase;
+}
+/* line 16, ../sass/pages/_projects.scss */
+#projects .card {
+  background-color: #393E41;
+  height: 10.5em;
+  margin: .5em 0;
+}
+/* line 21, ../sass/pages/_projects.scss */
+#projects .card h3 {
+  color: #9AA0A8;
+}
+/* line 25, ../sass/pages/_projects.scss */
+#projects .card p {
+  color: #9AA0A8;
 }
 
 /* line 1, ../sass/pages/_bio.scss */
