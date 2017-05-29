@@ -1,5 +1,6 @@
 #skills {
   background-color: $alt-background-color;
+  padding-bottom: 2em;
   text-align: center;
   width: 100%;
 
@@ -14,13 +15,17 @@
 
   .card {
     background-color: $alt-title-color;
-    height: 10em;
-    margin: .25em 0;
+    height: 10.5em;
+    margin: .5em 0;
 
     img {
       height: 8em;
       margin: .5em;
       width: 8em;
+    }
+
+    p {
+      margin-bottom: .5em;
     }
   }
 }

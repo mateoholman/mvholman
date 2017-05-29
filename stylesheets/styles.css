@@ -57,10 +57,11 @@ body {
 /* line 1, ../sass/pages/_skills.scss */
 #skills {
   background-color: #393E41;
+  padding-bottom: 2em;
   text-align: center;
   width: 100%;
 }
-/* line 6, ../sass/pages/_skills.scss */
+/* line 7, ../sass/pages/_skills.scss */
 #skills h2 {
   color: #9AA0A8;
   font-family: 'Fjalla One', sans-serif;
@@ -69,17 +70,21 @@ body {
   padding-top: 1em;
   text-transform: uppercase;
 }
-/* line 15, ../sass/pages/_skills.scss */
+/* line 16, ../sass/pages/_skills.scss */
 #skills .card {
   background-color: #9AA0A8;
-  height: 10em;
-  margin: .25em 0;
+  height: 10.5em;
+  margin: .5em 0;
 }
-/* line 20, ../sass/pages/_skills.scss */
+/* line 21, ../sass/pages/_skills.scss */
 #skills .card img {
   height: 8em;
   margin: .5em;
   width: 8em;
+}
+/* line 27, ../sass/pages/_skills.scss */
+#skills .card p {
+  margin-bottom: .5em;
 }
 
 /* line 1, ../sass/pages/_projects.scss */
