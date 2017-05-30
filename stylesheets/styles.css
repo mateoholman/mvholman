@@ -73,16 +73,17 @@ body {
 /* line 16, ../sass/pages/_skills.scss */
 #skills .card {
   background-color: #9AA0A8;
+  border-radius: 1em;
   height: 10.5em;
   margin: .5em 0;
 }
-/* line 21, ../sass/pages/_skills.scss */
+/* line 22, ../sass/pages/_skills.scss */
 #skills .card img {
   height: 8em;
   margin: .5em;
   width: 8em;
 }
-/* line 27, ../sass/pages/_skills.scss */
+/* line 28, ../sass/pages/_skills.scss */
 #skills .card p {
   margin-bottom: .5em;
 }
