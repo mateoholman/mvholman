@@ -16,10 +16,13 @@
   .card {
     background-color: $title-color;
     height: 10.5em;
-    margin: .5em 0;
+    margin: .75em 0;
+    padding: .25em 0;
 
     h3 {
       color: $alt-title-color;
+      font-family: 'Scope One', serif;
+      font-weight: bold;
     }
 
     p {
