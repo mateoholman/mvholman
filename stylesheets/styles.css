@@ -107,17 +107,19 @@ body {
 /* line 16, ../sass/pages/_projects.scss */
 #projects .card {
   background-color: #393E41;
+  border-radius: 1em;
   height: 10.5em;
   margin: .75em 0;
   padding: .25em 0;
 }
-/* line 22, ../sass/pages/_projects.scss */
+/* line 23, ../sass/pages/_projects.scss */
 #projects .card h3 {
   color: #9AA0A8;
   font-family: 'Scope One', serif;
   font-weight: bold;
+  text-transform: capitalize;
 }
-/* line 28, ../sass/pages/_projects.scss */
+/* line 30, ../sass/pages/_projects.scss */
 #projects .card p {
   color: #9AA0A8;
 }

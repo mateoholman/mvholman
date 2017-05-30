@@ -15,6 +15,7 @@
 
   .card {
     background-color: $title-color;
+    border-radius: 1em;
     height: 10.5em;
     margin: .75em 0;
     padding: .25em 0;
@@ -23,6 +24,7 @@
       color: $alt-title-color;
       font-family: 'Scope One', serif;
       font-weight: bold;
+      text-transform: capitalize;
     }
 
     p {
