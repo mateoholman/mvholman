@@ -151,17 +151,17 @@ body {
 }
 
 /* line 1, ../sass/pages/_bucketList.scss */
-#qanda {
+#bucketList {
   background-color: #9AA0A8;
   text-align: center;
   width: 100%;
 }
 /* line 6, ../sass/pages/_bucketList.scss */
-#qanda h2 {
+#bucketList h2 {
   color: #393E41;
   font-family: 'Fjalla One', sans-serif;
-  font-size: 4em;
+  font-size: 3.5em;
   letter-spacing: .3em;
-  padding-top: 1em;
+  padding-top: .5em;
   text-transform: uppercase;
 }
