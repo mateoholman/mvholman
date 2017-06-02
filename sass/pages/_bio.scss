@@ -13,12 +13,16 @@
   }
 
   .card {
-    text-align: left;
     margin: .5em;
     padding: .25em;
+    text-align: left;
 
     p {
       color: $alt-title-color;
+    }
+
+    img {
+      border-radius: 50%;
     }
   }
 }
