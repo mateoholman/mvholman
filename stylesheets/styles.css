@@ -141,11 +141,18 @@ body {
 }
 /* line 15, ../sass/pages/_bio.scss */
 #bio .card {
-  text-align: left;
-  margin: .5em;
+  margin: 1em;
   padding: .25em;
+  text-align: justify;
 }
 /* line 20, ../sass/pages/_bio.scss */
+#bio .card img {
+  border-radius: 50%;
+  float: left;
+  margin-right: 1em;
+  width: 15em;
+}
+/* line 27, ../sass/pages/_bio.scss */
 #bio .card p {
   color: #9AA0A8;
 }
