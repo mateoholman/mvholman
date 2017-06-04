@@ -127,10 +127,11 @@ body {
 /* line 1, ../sass/pages/_bio.scss */
 #bio {
   background-color: #393E41;
+  height: 100%;
   text-align: center;
   width: 100%;
 }
-/* line 6, ../sass/pages/_bio.scss */
+/* line 7, ../sass/pages/_bio.scss */
 #bio h2 {
   color: #9AA0A8;
   font-family: 'Fjalla One', sans-serif;
@@ -139,20 +140,20 @@ body {
   padding-top: 1em;
   text-transform: uppercase;
 }
-/* line 15, ../sass/pages/_bio.scss */
+/* line 16, ../sass/pages/_bio.scss */
 #bio .card {
   margin: 1em;
   padding: .25em;
   text-align: justify;
 }
-/* line 20, ../sass/pages/_bio.scss */
+/* line 21, ../sass/pages/_bio.scss */
 #bio .card img {
   border-radius: 50%;
   float: left;
   margin-right: 1em;
   width: 15em;
 }
-/* line 27, ../sass/pages/_bio.scss */
+/* line 28, ../sass/pages/_bio.scss */
 #bio .card p {
   color: #9AA0A8;
 }
