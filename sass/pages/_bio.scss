@@ -14,9 +14,9 @@
   }
 
   .card {
-    margin: 1em;
+    margin: 4em auto;
+    max-width: 35em;
     padding: .25em;
-    text-align: justify;
 
     img {
       border-radius: 50%;
@@ -25,8 +25,9 @@
       width: 12em;
     }
 
-    p {
+    #cardText {
       color: $alt-title-color;
+      text-align: justify;
     }
   }
 }

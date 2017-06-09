@@ -142,9 +142,9 @@ body {
 }
 /* line 16, ../sass/pages/_bio.scss */
 #bio .card {
-  margin: 1em;
+  margin: 4em auto;
+  max-width: 35em;
   padding: .25em;
-  text-align: justify;
 }
 /* line 21, ../sass/pages/_bio.scss */
 #bio .card img {
@@ -154,8 +154,9 @@ body {
   width: 12em;
 }
 /* line 28, ../sass/pages/_bio.scss */
-#bio .card p {
+#bio .card #cardText {
   color: #9AA0A8;
+  text-align: justify;
 }
 
 /* line 1, ../sass/pages/_bucketList.scss */
